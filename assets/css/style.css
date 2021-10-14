@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    height: 100vh;
+    background-color: #151515;
+  
+}
+
+header{
+
+}
+nav{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+}
+header span{
+    position: relative;
+font-size: 50px;
+top: 10px;
+left: 5vw;
+color: #9d9f9f;
+font-family: 'Monoton', cursive;
+}
+
+
+header p{
+    position: relative;
+    font-size: 24px;
+    left: 10vw;
+    top: -40px;
+    color: #9d9f9f;
+    cursor: pointer;
+    width: 200px;
+}
+header p:hover{
+   color: white;
+    
+}
+header nav ul li{
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    left: 50vw;
+    top: -70px;
+    padding: 0vh 50px;
+    list-style: none;
+    color: #9d9f9f;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    color: white;
+}
+
+.border{
+    top: 8vh;
+    position: relative;
+    border-bottom: 2px solid #9d9f9f;
+}
+
+section h1{
+    font-size: 80px;
+position: relative;
+    color: #9d9f9f;
+    top: 40vh;
+    left: 10vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section p{
+    font-size: 24px;
+    position: relative;
+    color: #AC8059;
+    font-family: 'Ubuntu', sans-serif;
+    top: 40vh;
+    left: 10vw;
+}
+section span{
+    padding-right: 5px;
+    letter-spacing: -2px;
+    position: relative;
+    color: #AC8059;
+}
+article{
+    
+    
+}
+
+.div_1{
+position: absolute;
+background: url("https://i.pinimg.com/originals/cb/a2/12/cba212eed69977e8935c472cccd2a0d6.jpg");
+width: 20vw;
+height: 70vh;
+left: 80vw;
+
+}
+
+.div_2{
+position: absolute;
+background: url("https://i.pinimg.com/736x/46/5d/71/465d7140a2cac9b6ea78feabd5000669--grey-interior-design-dark-grey-interior.jpg");
+width: 20vw;
+height: 70vh;
+left: 58vw;
+}
+.div_3{
+position: absolute;
+background: url("https://www.digsdigs.com/photos/2016/10/dark-alluring-bedroom-with-very-simple-and-minimalist-decor.jpg");
+width: 20vw;
+height: 70vh;
+left: 36vw;
+
+
+
+}
